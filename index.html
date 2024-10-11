@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>Image border colorer</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <p>Если у вас большое изображение и оно съезжает относительно рамки, уменьшите масштаб страницы</p>
+        <input type="file" id="imageInput" accept="image/*">
+        <br>
+        <input type="text" name="width" id="widthInput" placeholder="Ширина">
+        <input type="text" name="height" id="heightInput" placeholder="Высота">
+        <br>
+        <input type="text" name="radius" id="radiusInput" placeholder="Радиус скругления">
+        <br>
+        <input type="text" name="seed" id="seedInput" placeholder="Сид фона (0-16384)">
+        <button id="randomizeSeed">Случайный сид</button>
+        <br>
+        <input type="text" name="minDots" id="minDots" placeholder="Минимум точек света">
+        <br>
+        <input type="text" name="maxDots" id="maxDots" placeholder="Максимум точек света">
+        <br>
+        <input type="text" name="minDist" id="minDist" placeholder="Минимальное расстояние между точками света">
+        <br>
+        <input type="text" name="brightness" id="brightness" placeholder="Яркость">
+        <br>
+        <button id="addBorderBtn">Создать рамку</button>
+        <canvas id="outputCanvas" style="display: block;"></canvas>
+
+    <script src="script.js"></script>
+    </body>
+</html>

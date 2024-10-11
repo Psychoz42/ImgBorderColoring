@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 50px;
+    text-align: center;
+    background-color: #1e1e1e;
+    color: #f0f0f0;
+}
+
+input, button {
+    background-color: #333;
+    color: #f0f0f0;
+    border: 1px solid #555;
+    padding: 7px;
+    margin-top: 20px;
+}
+
+button:hover, select:hover, input[type="file"]:hover {
+    background-color: #444;
+}
+
+#outputCanvas {
+    display: block;
+    margin-top: 20px;
+    max-width: 80%;
+    height: auto;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    border: solid 0px;
+    border-radius: 0px;
+}
+
+img {
+    position: relative;
+    bottom: 1px;
+
+    border: solid 0px;
+    border-radius: 0px;
+}
