@@ -1,5 +1,4 @@
 document.getElementById("addBorderBtn").addEventListener("click", preparing);
-document.getElementById('randomizeSeed').addEventListener('click', randomizeSeed);
 
 const input = document.getElementById('imageInput');
 
@@ -17,7 +16,6 @@ const brightness = document.getElementById('brightness');
 
 function preparing() {
     
-
     if (!input.files.length) {
         alert('Выберите изображение');
         return;
